@@ -5,6 +5,6 @@
   } ,
   "scripts": {
     "build": "bower install && grunt build" ,
-    "start": "index.js"
+    "start": "node index.js"
   }
 }
