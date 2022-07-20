@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.25",
+    "discord.js": "^14.0.2"
+  } ,
+  "scripts": {
+    "start": "node index.js"
+  }
+}
