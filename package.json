@@ -4,7 +4,6 @@
     "discord.js": "^14.0.2"
   } ,
   "scripts": {
-    "build": "bower install && grunt build" ,
     "start": "node index.js"
   }
 }
