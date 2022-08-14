@@ -61,4 +61,4 @@ Client.on("interactionCreate" , async interaction => require("./events/interract
 
 // })
 
-Client.login(process.env.token)
+Client.login(token)
