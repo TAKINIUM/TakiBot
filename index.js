@@ -1,4 +1,5 @@
 const Discord = require("discord.js")
+require("dotenv").config()
 const { ServerAccount , Users } = require("./dbObjects")
 const Canvas = require("@napi-rs/canvas")
 const { token } = require('./config/config.json')
@@ -60,4 +61,4 @@ Client.on("interactionCreate" , async interaction => require("./events/interract
 
 // })
 
-Client.login(token)
+Client.login(process.env.token)
