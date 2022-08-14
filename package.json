@@ -1,9 +1,12 @@
 {
-  "dependencies": {
-    "@napi-rs/canvas": "^0.1.25",
-    "discord.js": "^14.0.2"
-  } ,
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "@napi-rs/canvas": "^0.1.25",
+    "discord.js": "^14.0.3",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.9"
   }
 }
